@@ -1,0 +1,39 @@
+{
+    "name": "alumni-extensions-vscode",
+    "displayName": "Alumni Extensions Pack",
+    "description": "A complete package for web development.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "icon": "assets/icon.png",
+    "extensionPack": [
+        "yzane.markdown-pdf",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+        "bradgashler.htmltagwrap",
+        "christian-kohler.path-intellisense",
+        "ionutvmi.path-autocomplete",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "formulahendry.auto-rename-tag",
+        "kisstkondoros.vscode-gutter-preview",
+        "PKief.material-icon-theme",
+        "gencer.html-slim-scss-css-class-completion",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "Angular.ng-template",
+        "vismalietuva.vscode-angular-support",
+        "mikael.angular-beastcode",
+        "natewallace.angular2-inline",
+        "GregorBiswanger.json2ts",
+        "rbbit.typescript-hero",
+        "ms-azuretools.vscode-docker",
+        "vit-m.template-strings",
+        "xabikos.JavaScriptSnippets",
+        "whtouche.vscode-js-console-utils",
+        "stackbreak.comment-divider",
+        "bierner.emojisense"
+    ]
+}
