@@ -1,15 +1,16 @@
 {
     "name": "alumni-extensions-vscode",
-    "displayName": "Alumni Extensions Pack",
-    "description": "A complete package for web development.",
+    "displayName": "Alumni Pack",
+    "description": "A complete extensions pack for web development.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.38.0"
     },
+    "publisher": "milab",
     "categories": [
         "Extension Packs"
     ],
-    "icon": "assets/icon.png",
+    "icon": "icon.png",
     "extensionPack": [
         "yzane.markdown-pdf",
         "yzhang.markdown-all-in-one",

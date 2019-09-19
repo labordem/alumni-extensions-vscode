@@ -1,13 +1,13 @@
 <p align="center">
-  <img height="210" src="./assets/icon.png">
+  <img height="210" src="https://raw.githubusercontent.com/mIaborde/alumni-extensions-vscode/master/icon.png">
   <h1 align="center">Alumni Pack</h1>
 </p>
 
-# ⌨️ Install
+## ⌨️ Install
 1. Open the extensions sidebar on Visual Studio Code
 2. Search for `Alumni Pack` and install it.
 
-# 🔧 Personal settings
+## 🔧 Personal settings
 **settings.json**
 ```typescript
 {
@@ -78,10 +78,10 @@
 }
 ```
 
-# ➕ Shortcuts
+## ➕ Shortcuts
 - `alt+$` : Template String: insert argument
 - `alt+x` : View: focus into Panel
 - `alt+j` : Terminal: PLit Terminal
 - `alt+k` : Terminal: Focus Next Pane
 
-# 🕹 Enjoy
+## 🕹 Enjoy
