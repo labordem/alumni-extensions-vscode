@@ -4,6 +4,10 @@ All notable changes to the "alumni-extensions-vscode" extension pack will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
 
 - Initial release
+
+## [1.2.0] - 2019-09-19
+### Added
+- Complete pack for web development

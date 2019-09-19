@@ -2,7 +2,7 @@
     "name": "alumni-extensions-vscode",
     "displayName": "Alumni Pack",
     "description": "A complete extensions pack for web development.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -15,6 +15,7 @@
         "yzane.markdown-pdf",
         "yzhang.markdown-all-in-one",
         "bierner.markdown-preview-github-styles",
+        "docsmsft.docs-markdown",
         "bierner.emojisense",
         "jeff-hykin.polacode-2019",
         "stackbreak.comment-divider",

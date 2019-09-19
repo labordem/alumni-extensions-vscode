@@ -1,7 +1,3 @@
-<p align="left">
-  <img height="210" src="https://raw.githubusercontent.com/mIaborde/alumni-extensions-vscode/master/icon.png">
-</p>
-
 # Alumni Pack
 
 ## ⌨️ Install
@@ -13,7 +9,7 @@
 - Open VSCode settings.json with `ctrl+maj+P` > `Preferences: Open Settings (JSON)`
 - Copy/Paste this settings:
 
-    ```json
+    ```typescript
     {
         // Window & layout
         "window.menuBarVisibility": "toggle",
