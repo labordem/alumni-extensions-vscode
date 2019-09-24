@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
-## [1.2.0] - 2019-09-19
+## [1.3.0] - 2019-09-19
 ### Added
 - Complete pack for web development
+- Keyboard shortcuts added

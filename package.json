@@ -2,7 +2,7 @@
     "name": "alumni-extensions-vscode",
     "displayName": "Alumni Pack",
     "description": "A complete extensions pack for web development.",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -43,9 +43,9 @@
         "mhutchie.git-graph",
         "adamhartford.vscode-base64",
         "ritwickdey.liveserver",
-        "naumovs.color-highlight",
         "natqe.reload",
         "funkyremi.vscode-google-translate",
-        "msjsdiag.debugger-for-chrome"
+        "msjsdiag.debugger-for-chrome",
+        "vincaslt.highlight-matching-tag"
     ]
 }
