@@ -1,8 +1,8 @@
 {
     "name": "alumni-pack",
-    "displayName": "Alumni Pack",
+    "displayName": "*Alumni Pack",
     "description": "A complete extensions pack for web development.",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "engines": {
         "vscode": "^1.38.0"
     },
@@ -21,7 +21,8 @@
         "stackbreak.comment-divider",
         "bradgashler.htmltagwrap",
         "christian-kohler.path-intellisense",
-        "ionutvmi.path-autocomplete",
+        "christian-kohler.npm-intellisense",
+        "pranaygp.vscode-css-peek",
         "gencer.html-slim-scss-css-class-completion",
         "CoenraadS.bracket-pair-colorizer-2",
         "formulahendry.auto-rename-tag",
@@ -32,7 +33,7 @@
         "xabikos.JavaScriptSnippets",
         "whtouche.vscode-js-console-utils",
         "ms-azuretools.vscode-docker",
-        "felixfbecker.php-intellisense",
+        "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-french",
         "mhutchie.git-graph",
         "adamhartford.vscode-base64",
@@ -40,6 +41,8 @@
         "natqe.reload",
         "funkyremi.vscode-google-translate",
         "msjsdiag.debugger-for-chrome",
-        "vincaslt.highlight-matching-tag"
+        "vincaslt.highlight-matching-tag",
+        "alefragnani.project-manager",
+        "yatki.vscode-surround"
     ]
 }
