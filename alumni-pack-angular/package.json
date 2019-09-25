@@ -1,8 +1,8 @@
 {
     "name": "alumni-pack-angular",
-    "displayName": "Alumni Pack Angular",
+    "displayName": "*Alumni Pack Angular",
     "description": "Additional extensions for Angular.",
-    "version": "1.0.0",
+    "version": "1.4.0",
     "engines": {
         "vscode": "^1.38.0"
     },
