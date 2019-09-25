@@ -1,8 +1,8 @@
 {
     "name": "alumni-pack",
-    "displayName": "*Alumni Pack",
-    "description": "A complete extensions pack for web development.",
-    "version": "1.4.0",
+    "displayName": ":Alumni Pack",
+    "description": "📦 A complete extensions pack for web development.",
+    "version": "1.5.0",
     "engines": {
         "vscode": "^1.38.0"
     },
