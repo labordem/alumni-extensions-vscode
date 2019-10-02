@@ -1,6 +1,7 @@
 # Alumni Pack
 
 ## ⌨️ Install
+
 - Open the extensions sidebar on Visual Studio Code
 - Search for `Alumni Pack` and install it.
 
@@ -91,40 +92,41 @@
 ```
 
 ## ➕ Shortcuts
+
 - Open VSCode settings.json with `ctrl+maj+P` > `Preferences: Open Keyboard Shortcuts (JSON)`
 - Copy/Paste this settings:
 
 ```typescript
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "alt+j",
-        "command": "workbench.action.terminal.splitInActiveWorkspace"
-    },
-    {
-        "key": "alt+[BracketRight]",
-        "command": "template-strings.insertArg",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+x",
-        "command": "workbench.action.focusPanel"
-    },
-    {
-        "key": "alt+f",
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-        "key": "alt+w",
-        "command": "extension.htmlTagWrap",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+l",
-        "command": "extension.insertLogStatement",
-        "when": "editorTextFocus"
-    },
-]
+  {
+    key: "alt+j",
+    command: "workbench.action.terminal.splitInActiveWorkspace"
+  },
+  {
+    key: "alt+[BracketRight]",
+    command: "template-strings.insertArg",
+    when: "editorTextFocus"
+  },
+  {
+    key: "alt+x",
+    command: "workbench.action.focusPanel"
+  },
+  {
+    key: "alt+f",
+    command: "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    key: "alt+w",
+    command: "extension.htmlTagWrap",
+    when: "editorTextFocus"
+  },
+  {
+    key: "shift+cmd+l",
+    command: "extension.insertLogStatement",
+    when: "editorTextFocus"
+  }
+];
 ```
 
 ## 🕹 Enjoy
