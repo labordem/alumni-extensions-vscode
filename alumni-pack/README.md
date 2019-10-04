@@ -1,11 +1,11 @@
 # Alumni Pack
 
-## ⌨️ Install
+## 📦 Install
 
 - Open the extensions sidebar on Visual Studio Code
 - Search for `Alumni Pack` and install it.
 
-## 🔧 Personal settings
+## 👌 Personal settings
 
 - Open VSCode settings.json with `ctrl+maj+P` > `Preferences: Open Settings (JSON)`
 - Copy/Paste this settings:
@@ -100,7 +100,7 @@
 }
 ```
 
-## ➕ Personal shortcuts
+## ⌨️ Personal shortcuts
 
 - Open VSCode settings.json with `ctrl+maj+P` > `Preferences: Open Keyboard Shortcuts (JSON)`
 - Copy/Paste this settings:
@@ -142,12 +142,18 @@
     when: "editorTextFocus"
   },
   {
-    // Jump between  Angular component files, switch back and forth to associated template.
+    // (Angular Pack) Jump between  Angular component files, switch back and forth to associated template.
     key: "alt+q",
     command: "extension.ngQuickSwitchToggle",
     when: "editorTextFocus"
   }
 ];
 ```
+
+## 👇 More cool stuffs
+
+- A [theme](https://marketplace.visualstudio.com/items?itemName=milab.pikachu-theme-vscode) for Visual Studio Code
+- A [guide](https://github.com/mIaborde/my-zsh) to install **ZSH** & **Fura Code fonts** (a NerdFonts patched Fira Code fonts), uncomment the **ZSH & Fira Code** section in **settings.json** to enable ZSH, Fura Code and emoji support for Linux
+- An **Anguar** complementary [extension](https://marketplace.visualstudio.com/items?itemName=milab.alumni-pack-angular)
 
 ## 🕹 Enjoy
