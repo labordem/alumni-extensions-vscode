@@ -1,22 +1,25 @@
 {
-    "name": "alumni-pack-angular",
-    "displayName": ":Alumni Pack Angular",
-    "description": "📦 Additional extensions for Angular.",
-    "version": "1.5.0",
-    "engines": {
-        "vscode": "^1.38.0"
-    },
-    "publisher": "milab",
-    "categories": [
-        "Extension Packs"
-    ],
-    "icon": "icon.png",
-    "extensionPack": [
-        "ms-vscode.vscode-typescript-tslint-plugin",
-        "Angular.ng-template",
-        "vismalietuva.vscode-angular-support",
-        "mikael.angular-beastcode",
-        "natewallace.angular2-inline",
-        "quicktype.quicktype"
-    ]
+  "name": "alumni-pack-angular",
+  "displayName": ":Alumni Pack Angular",
+  "description": "📦 Additional extensions for Angular.",
+  "version": "1.7.0",
+  "repository": "https://github.com/mIaborde/alumni-extensions-vscode",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "publisher": "milab",
+  "categories": [
+    "Extension Packs"
+  ],
+  "icon": "icon.png",
+  "extensionPack": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "Angular.ng-template",
+    "vismalietuva.vscode-angular-support",
+    "mikael.angular-beastcode",
+    "natewallace.angular2-inline",
+    "quicktype.quicktype",
+    "erhise.vs-ng-quick-switch",
+    "editorconfig.editorconfig"
+  ]
 }

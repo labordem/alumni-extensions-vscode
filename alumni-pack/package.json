@@ -2,7 +2,8 @@
   "name": "alumni-pack",
   "displayName": ":Alumni Pack",
   "description": "📦 A complete extensions pack for web development.",
-  "version": "1.6.0",
+  "version": "1.7.0",
+  "repository": "https://github.com/mIaborde/alumni-extensions-vscode",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -13,7 +14,6 @@
   "icon": "icon.png",
   "extensionPack": [
     "PKief.material-icon-theme",
-    "davidanson.vscode-markdownlint",
     "yzane.markdown-pdf",
     "yzhang.markdown-all-in-one",
     "bierner.markdown-preview-github-styles",
