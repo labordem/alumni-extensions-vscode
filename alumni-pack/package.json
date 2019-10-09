@@ -21,7 +21,7 @@
     "bierner.emojisense",
     "jeff-hykin.polacode-2019",
     "stackbreak.comment-divider",
-    "christian-kohler.path-intellisense",
+    "ionutvmi.path-autocomplete",
     "christian-kohler.npm-intellisense",
     "pranaygp.vscode-css-peek",
     "gencer.html-slim-scss-css-class-completion",
@@ -47,6 +47,6 @@
     "funkyremi.vscode-google-translate",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
-    "usernamehw.errorlens"
+    "abax.nearest-icons"
   ]
 }

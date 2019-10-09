@@ -12,25 +12,40 @@
 
 ```typescript
 {
+  /* BASE settings ------------------------------------------------------------ */
   // Window & layout
   "window.menuBarVisibility": "toggle",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.editor.highlightModifiedTabs": true,
   "explorer.sortOrder": "type",
   // Editor
+  "editor.fontFamily": "FuraCode Nerd Font, monospace, Noto Color Emoji",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 22,
   "editor.autoIndent": true,
-  "editor.tabSize": 2,
-  "editor.fontSize": 16,
-  "editor.minimap.renderCharacters": false,
+  "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.mouseWheelZoom": true,
   // Action on save / paste
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
   // Terminal
   "terminal.integrated.fontSize": 16,
-  /* VSCode extensions settings ----------------------------------------------- */
+  /* TELEMETRY & UPDATES settings --------------------------------------------- */
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "update.mode": "manual",
+  "extensions.autoUpdate": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.enableExperiments": false,
+  "extensions.autoCheckUpdates": false,
+  /* EXTENSIONS settings ------------------------------------------------------ */
   // TSLint
   "editor.codeActionsOnSave": {
       "source.fixAll.tslint": true,
@@ -39,7 +54,7 @@
   // Code Spell Checker
   "cSpell.language": "en,fr",
   "cSpell.diagnosticLevel": "Hint",
-  "cSpell.userWords": [],
+  "cSpell.userWords": ["signin", "signup", "aujourd'hui"],
   // Material icon theme
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showWelcomeMessage": false,
@@ -47,6 +62,7 @@
   "material-icon-theme.folders.color": "#608eb9",
   "material-icon-theme.folders.associations": {
       "_services": "controller",
+      "_controllers": "controller",
       "_helpers": "helper",
       "_shared": "shared",
       "_components": "components",
@@ -54,7 +70,16 @@
       "_core": "core",
       "_guards": "guard",
       "_utils": "utils",
-      "_pipes": "pipe"
+      "_pipes": "pipe",
+      "App_Resources": "resource",
+      "platforms": "other"
+  },
+  "material-icon-theme.files.associations": {
+      "*.controller.ts": "nest-controller",
+      "*.middleware.ts": "nest-middleware",
+      "*.filter.ts": "nest-filter",
+      "*.gateway.ts": "nest-gateway",
+      "*.decorator.ts": "nest-decorator",
   },
   // Bracket Pair Colorizer 2
   "editor.matchBrackets": false,
@@ -75,28 +100,16 @@
           }
       }
   },
-  // Error Lens
-  "errorLens.enabledDiagnosticLevels": [
-      "error",
-      "warning",
-      "info"
-  ],
-  "errorLens.errorBackground": "#0000000",
-  "errorLens.infoBackground": "#0000000",
-  "errorLens.hintBackground": "0000000",
-  "errorLens.warningBackground": "0000000",
   // Disable markdown all in one linting for Prettier
   "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  /* ZSH & Fira Code ---------------------------------------------------------- */
+  /* ZSH settings ------------------------------------------------------------- */
   // "terminal.integrated.shell.linux": "/usr/bin/zsh",
   // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  // "editor.fontFamily": "FuraCode Nerd Font, monospace, Noto Color Emoji",
   // "workbench.colorCustomizations": {
   //     "terminal.ansiBlack": "#0a1d29",
   // },
-  // "editor.fontLigatures": true,
 }
 ```
 
@@ -110,42 +123,41 @@
 [
   {
     // Terminal split
-    key: "alt+j",
-    command: "workbench.action.terminal.splitInActiveWorkspace"
+    "key": "alt+j",
+    "command": "workbench.action.terminal.splitInActiveWorkspace"
   },
   {
     // Insert ES6 template string `${}` in simple "" string
-    key: "alt+[BracketRight]",
-    command: "template-strings.insertArg",
-    when: "editorTextFocus"
+    "key": "alt+[BracketRight]",
+    "command": "template-strings.insertArg",
+    "when": "editorTextFocus"
   },
   {
     // Toggle terminal panel
-    key: "alt+x",
-    command: "workbench.action.togglePanel"
+    "key": "alt+x",
+    "command": "workbench.action.togglePanel"
   },
   {
     // Toggle terminal fullscreen
-    key: "alt+f",
-    command: "workbench.action.toggleMaximizedPanel"
+    "key": "alt+f",
+    "command": "workbench.action.toggleMaximizedPanel"
   },
   {
     // Wrap the current selected elements with html tags
-    key: "alt+w",
-    command: "extension.htmlTagWrap",
-    when: "editorTextFocus"
+    "key": "alt+w",
+    "command": "extension.htmlTagWrap",
+    "when": "editorTextFocus"
   },
   {
     // Insert "console.log('selectedElements: ' + selectedElements)"
-    key: "shift+cmd+l",
-    command: "extension.insertLogStatement",
-    when: "editorTextFocus"
+    "key": "shift+cmd+l",
+    "command": "extension.insertLogStatement",
+    "when": "editorTextFocus"
   },
   {
     // (Angular Pack) Jump between  Angular component files, switch back and forth to associated template.
-    key: "alt+q",
-    command: "extension.ngQuickSwitchToggle",
-    when: "editorTextFocus"
+    "key": "alt+q",
+    "command": "extension.ngQuickSwitchToggle"
   }
 ];
 ```
@@ -153,7 +165,7 @@
 ## 👇 More cool stuffs
 
 - A [theme](https://marketplace.visualstudio.com/items?itemName=milab.pikachu-theme-vscode) for Visual Studio Code
-- A [guide](https://github.com/mIaborde/my-zsh) to install **ZSH** & **Fura Code fonts** (a NerdFonts patched Fira Code fonts), uncomment the **ZSH & Fira Code** section in **settings.json** to enable ZSH, Fura Code and emoji support for Linux
-- An **Anguar** complementary [extension](https://marketplace.visualstudio.com/items?itemName=milab.alumni-pack-angular)
+- A [guide](https://github.com/mIaborde/my-zsh) to install **ZSH** & **Fura Code fonts** (a NerdFonts patched Fira Code fonts), uncomment the **ZSH** section in **settings.json** to enable ZSH in VSCode
+- An [Angular](https://marketplace.visualstudio.com/items?itemName=milab.alumni-pack-angular) complementary extension
 
 ## 🕹 Enjoy
