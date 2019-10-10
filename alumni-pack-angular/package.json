@@ -13,13 +13,13 @@
   ],
   "icon": "icon.png",
   "extensionPack": [
-    "ms-vscode.vscode-typescript-tslint-plugin",
     "Angular.ng-template",
     "vismalietuva.vscode-angular-support",
     "mikael.angular-beastcode",
     "natewallace.angular2-inline",
     "quicktype.quicktype",
     "erhise.vs-ng-quick-switch",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "ms-vscode.vscode-typescript-tslint-plugin"
   ]
 }

@@ -118,8 +118,7 @@
 - Open VSCode settings.json with `ctrl+maj+P` > `Preferences: Open Keyboard Shortcuts (JSON)`
 - Copy/Paste this settings:
 
-```typescript
-// Place your key bindings in this file to override the defaultsauto[]
+```json
 [
   {
     // Terminal split
