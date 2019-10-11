@@ -37,16 +37,18 @@
     "jeff-hykin.polacode-2019",
     "abax.nearest-icons",
     "stackbreak.comment-divider",
-    // Run & debug
-    "ritwickdey.liveserver",
-    "msjsdiag.debugger-for-chrome",
-    "ms-azuretools.vscode-docker",
+    "angelgonzalez.loremzombie",
     // Code formatting
     "streetsidesoftware.code-spell-checker",
     "streetsidesoftware.code-spell-checker-french",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    // Debug & deploy
+    "ritwickdey.liveserver",
+    "msjsdiag.debugger-for-chrome",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-ssh"
   ]
 }
 ```
