@@ -19,7 +19,6 @@
     "natewallace.angular2-inline",
     "quicktype.quicktype",
     "erhise.vs-ng-quick-switch",
-    "editorconfig.editorconfig",
     "ms-vscode.vscode-typescript-tslint-plugin"
   ]
 }

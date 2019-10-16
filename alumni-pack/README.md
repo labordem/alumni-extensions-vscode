@@ -91,11 +91,7 @@
   "comment-divider.subheaderAlign": "left",
   // Highlight Matching Tags
   "highlight-matching-tag.styles": {
-    "opening": {
-      "name": {
-        "underline": "#ffd900"
-      }
-    }
+    "opening": { "name": { "underline": "#ffd900" } }
   },
   // EmojiSense
   "emojisense.languages": {
@@ -130,7 +126,9 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  // Version Lens
+  "versionlens.showVersionLensesAtStartup": false
   /* ZSH settings ------------------------------------------------------------- */
   // "terminal.integrated.shell.linux": "/usr/bin/zsh",
   // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",

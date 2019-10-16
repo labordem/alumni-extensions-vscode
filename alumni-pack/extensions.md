@@ -8,14 +8,11 @@
     "CoenraadS.bracket-pair-colorizer-2",
     "vincaslt.highlight-matching-tag",
     // Markdown helpers
-    "yzane.markdown-pdf",
     "yzhang.markdown-all-in-one",
     "bierner.markdown-preview-github-styles",
-    "docsmsft.docs-markdown",
     "bierner.emojisense",
     // Html helpers
     "formulahendry.auto-rename-tag",
-    "formulahendry.auto-close-tag",
     "bradgashler.htmltagwrap",
     "kisstkondoros.vscode-gutter-preview",
     // Javascript helpers
@@ -45,7 +42,6 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     // Debug & deploy
-    "ritwickdey.liveserver",
     "msjsdiag.debugger-for-chrome",
     "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-ssh"
