@@ -22,12 +22,10 @@
     "yatki.vscode-surround",
     // Autocompletion
     "ionutvmi.path-autocomplete",
-    "christian-kohler.npm-intellisense",
     "pranaygp.vscode-css-peek",
     "gencer.html-slim-scss-css-class-completion",
     // IDE Tools
     "mhutchie.git-graph",
-    "alefragnani.project-manager",
     "adamhartford.vscode-base64",
     "natqe.reload",
     "funkyremi.vscode-google-translate",
@@ -39,7 +37,6 @@
     "streetsidesoftware.code-spell-checker",
     "streetsidesoftware.code-spell-checker-french",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     // Debug & deploy
     "msjsdiag.debugger-for-chrome",

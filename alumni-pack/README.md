@@ -20,11 +20,10 @@
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
   // Editor
-  "editor.fontFamily": "FuraCode Nerd Font, monospace, Noto Color Emoji",
+  "editor.fontFamily": "FuraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 22,
-  "editor.renderWhitespace": "boundary",
   "editor.autoIndent": true,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
@@ -84,7 +83,7 @@
   },
   // Bracket Pair Colorizer 2
   "editor.matchBrackets": false,
-  "bracket-pair-colorizer-2.colors": ["#dfeeff"],
+  "bracket-pair-colorizer-2.colors": ["#dfeeff000"],
   "bracket-pair-colorizer-2.excludedLanguages": ["html"],
   "bracket-pair-colorizer-2.highlightActiveScope": true,
   // Comment Divider
