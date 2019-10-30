@@ -24,17 +24,19 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 22,
-  "editor.autoIndent": true,
-  "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
-  "editor.insertSpaces": true,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": true,
-  // Action on save / paste
+  // Code format
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "editor.autoIndent": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "files.trimTrailingWhitespace": true,
   // Terminal
   "terminal.integrated.fontSize": 16,
   /* TELEMETRY & UPDATES settings --------------------------------------------- */
@@ -45,6 +47,55 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.enableExperiments": false,
   "extensions.autoCheckUpdates": false,
+  /* EXCLUSION settings ------------------------------------------------------- */
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/log/**": true,
+    "**/logs/**": true,
+    "**/.fdk/**": true
+  },
+  "files.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/log/**": true,
+    "**/.fdk/**": true
+  },
+  "search.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/log/**": true
+  },
   /* EXTENSIONS settings ------------------------------------------------------ */
   // TSLint
   "editor.codeActionsOnSave": {
@@ -90,7 +141,11 @@
   "comment-divider.subheaderAlign": "left",
   // Highlight Matching Tags
   "highlight-matching-tag.styles": {
-    "opening": { "name": { "underline": "#ffd900" } }
+    "opening": {
+      "name": {
+        "underline": "#ffd900"
+      }
+    }
   },
   // EmojiSense
   "emojisense.languages": {
