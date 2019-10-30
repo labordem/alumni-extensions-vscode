@@ -2,7 +2,7 @@
   "name": "alumni-pack-angular",
   "displayName": ":Alumni Pack Angular",
   "description": "📦 Additional extensions for Angular.",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "repository": "https://github.com/mIaborde/alumni-extensions-vscode",
   "engines": {
     "vscode": "^1.15.0"
