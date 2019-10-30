@@ -6,7 +6,6 @@
     // Visual improvements
     "PKief.material-icon-theme",
     "CoenraadS.bracket-pair-colorizer-2",
-    "vincaslt.highlight-matching-tag",
     // Markdown helpers
     "yzhang.markdown-all-in-one",
     "bierner.markdown-preview-github-styles",

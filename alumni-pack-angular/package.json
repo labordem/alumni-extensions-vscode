@@ -18,7 +18,6 @@
     "mikael.angular-beastcode",
     "natewallace.angular2-inline",
     "quicktype.quicktype",
-    "erhise.vs-ng-quick-switch",
-    "ms-vscode.vscode-typescript-tslint-plugin"
+    "erhise.vs-ng-quick-switch"
   ]
 }
