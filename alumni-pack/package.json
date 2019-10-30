@@ -2,7 +2,7 @@
   "name": "alumni-pack",
   "displayName": ":Alumni Pack",
   "description": "📦 A complete extensions pack for web development.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "repository": "https://github.com/mIaborde/alumni-extensions-vscode",
   "engines": {
     "vscode": "^1.15.0"

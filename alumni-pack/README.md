@@ -65,22 +65,6 @@
     "**/logs/**": true,
     "**/.fdk/**": true
   },
-  "files.exclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true,
-    "**/tmp/**": true,
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/dist/**": true,
-    "**/log/**": true,
-    "**/.fdk/**": true
-  },
   "search.exclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
@@ -139,14 +123,6 @@
   "bracket-pair-colorizer-2.highlightActiveScope": true,
   // Comment Divider
   "comment-divider.subheaderAlign": "left",
-  // Highlight Matching Tags
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "name": {
-        "underline": "#ffd900"
-      }
-    }
-  },
   // EmojiSense
   "emojisense.languages": {
     "markdown": true,
@@ -180,15 +156,13 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  // Version Lens
-  "versionlens.showVersionLensesAtStartup": false
+  }
   /* ZSH settings ------------------------------------------------------------- */
   // "terminal.integrated.shell.linux": "/usr/bin/zsh",
   // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   // "workbench.colorCustomizations": {
   //     "terminal.ansiBlack": "#0a1d29",
-  // },
+  // }
 }
 ```
 
