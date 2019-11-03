@@ -20,7 +20,7 @@
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
   // Editor
-  "editor.fontFamily": "FuraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 22,
@@ -158,11 +158,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
   /* ZSH settings ------------------------------------------------------------- */
-  // "terminal.integrated.shell.linux": "/usr/bin/zsh",
-  // "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  // "workbench.colorCustomizations": {
-  //     "terminal.ansiBlack": "#0a1d29",
-  // }
+  // ,"terminal.integrated.shell.linux": "/usr/bin/zsh"
+  // ,"terminal.integrated.shell.osx": "/usr/local/bin/zsh"
+  ,"workbench.colorCustomizations": {
+      "terminal.ansiBlack": "#0a1d29",
+  }
 }
 ```
 
@@ -186,10 +186,10 @@
   // Insert console.log('selectedElement: ' + selectedElement)
   { "key": "shift+cmd+l", "command": "extension.insertLogStatement", "when": "editorTextFocus" },
   // Select all the block content or block & content...
-  { "key": "cmd+shift+a", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus" }
+  { "key": "cmd+shift+a", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus" },
   // (Angular Pack) Jump between  Angular component files, switch back and forth to associated template
-  { "key": "alt+q", "command": "extension.ngQuickSwitchToggle" },
-];
+  { "key": "alt+q", "command": "extension.ngQuickSwitchToggle" }
+]
 ```
 
 ## 👇 More cool stuff
