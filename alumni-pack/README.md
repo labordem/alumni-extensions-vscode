@@ -21,6 +21,7 @@
   "explorer.openEditors.visible": 0,
   // Editor
   "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif, Noto Color Emoji",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 22,

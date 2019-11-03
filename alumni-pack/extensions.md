@@ -8,7 +8,6 @@
     "CoenraadS.bracket-pair-colorizer-2",
     // Markdown helpers
     "yzhang.markdown-all-in-one",
-    "bierner.markdown-preview-github-styles",
     "bierner.emojisense",
     // Html helpers
     "formulahendry.auto-rename-tag",
