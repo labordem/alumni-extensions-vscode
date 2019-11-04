@@ -20,15 +20,20 @@
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
   // Editor
-  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
-  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif, Noto Color Emoji",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.rulers": [80 /* default Prettier maxWidth */],
+  // Custom fonts
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif, Noto Color Emoji",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontWeight": "500",
   // Code format
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
@@ -38,8 +43,6 @@
   "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  // Terminal
-  "terminal.integrated.fontSize": 16,
   /* TELEMETRY & UPDATES settings --------------------------------------------- */
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
@@ -157,12 +160,12 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
   /* ZSH settings ------------------------------------------------------------- */
   // ,"terminal.integrated.shell.linux": "/usr/bin/zsh"
-  // ,"terminal.integrated.shell.osx": "/usr/local/bin/zsh"
-  ,"workbench.colorCustomizations": {
-      "terminal.ansiBlack": "#0a1d29",
+  // ,"terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#0a1d29"
   }
 }
 ```
@@ -175,19 +178,38 @@
 ```json
 [
   // Terminal split
-  { "key": "alt+j", "command": "workbench.action.terminal.splitInActiveWorkspace" },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.terminal.splitInActiveWorkspace"
+  },
   // Insert ES6 template string `${}` in simple string
-  { "key": "alt+[BracketRight]", "command": "template-strings.insertArg","when": "editorTextFocus" },
+  {
+    "key": "alt+[BracketRight]",
+    "command": "template-strings.insertArg",
+    "when": "editorTextFocus"
+  },
   // Toggle terminal panel
   { "key": "alt+x", "command": "workbench.action.togglePanel" },
   // Toggle terminal fullscreen
   { "key": "alt+f", "command": "workbench.action.toggleMaximizedPanel" },
   // Wrap the current selected elements with html tags
-  { "key": "alt+w", "command": "extension.htmlTagWrap", "when": "editorTextFocus" },
+  {
+    "key": "alt+w",
+    "command": "extension.htmlTagWrap",
+    "when": "editorTextFocus"
+  },
   // Insert console.log('selectedElement: ' + selectedElement)
-  { "key": "shift+cmd+l", "command": "extension.insertLogStatement", "when": "editorTextFocus" },
+  {
+    "key": "shift+cmd+l",
+    "command": "extension.insertLogStatement",
+    "when": "editorTextFocus"
+  },
   // Select all the block content or block & content...
-  { "key": "cmd+shift+a", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus" },
+  {
+    "key": "cmd+shift+a",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
   // (Angular Pack) Jump between  Angular component files, switch back and forth to associated template
   { "key": "alt+q", "command": "extension.ngQuickSwitchToggle" }
 ]
