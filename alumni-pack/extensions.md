@@ -10,7 +10,6 @@
     "yzhang.markdown-all-in-one",
     "bierner.emojisense",
     // Html helpers
-    "formulahendry.auto-rename-tag",
     "bradgashler.htmltagwrap",
     "kisstkondoros.vscode-gutter-preview",
     // Javascript helpers

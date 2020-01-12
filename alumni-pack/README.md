@@ -19,26 +19,31 @@
   "workbench.editor.highlightModifiedTabs": true,
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
+  "explorer.compactFolders": false,
   // Editor
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.rulers": [80 /* default Prettier maxWidth */],
+  "editor.rulers": [
+    80 /* default Prettier maxWidth */
+  ],
   // Custom fonts
-  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, monospace, Noto Color Emoji",
+  "editor.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji",
+  "terminal.integrated.fontFamily": "OperatorMonoSSmLig Nerd Font, FiraCode Nerd Font, Noto Color Emoji",
+  "debug.console.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji",
   "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif, Noto Color Emoji",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "terminal.integrated.fontSize": 15,
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "500",
   // Code format
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
-  "editor.autoIndent": true,
+  "editor.autoIndent": "full",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
@@ -93,7 +98,13 @@
   // Code Spell Checker
   "cSpell.language": "en,fr",
   "cSpell.diagnosticLevel": "Hint",
-  "cSpell.userWords": ["signin", "signup", "aujourd'hui"],
+  "cSpell.userWords": [
+    "signin",
+    "signup",
+    "aujourd'hui",
+    "sidenav",
+    "navbar"
+  ],
   // Material icon theme
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showWelcomeMessage": false,
@@ -111,7 +122,9 @@
     "_utils": "utils",
     "_pipes": "pipe",
     "App_Resources": "resource",
-    "platforms": "other"
+    "platforms": "other",
+    "features": "content",
+    "common": "shared"
   },
   "material-icon-theme.files.associations": {
     "*.controller.ts": "nest-controller",
@@ -121,10 +134,10 @@
     "*.decorator.ts": "nest-decorator"
   },
   // Bracket Pair Colorizer 2
-  "editor.matchBrackets": false,
   "bracket-pair-colorizer-2.colors": ["#dfeeff000"],
   "bracket-pair-colorizer-2.excludedLanguages": ["html"],
   "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "editor.matchBrackets": "never",
   // Comment Divider
   "comment-divider.subheaderAlign": "left",
   // EmojiSense
@@ -160,12 +173,6 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  /* ZSH settings ------------------------------------------------------------- */
-  // ,"terminal.integrated.shell.linux": "/usr/bin/zsh"
-  // ,"terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#0a1d29"
   }
 }
 ```
