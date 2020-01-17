@@ -5,12 +5,10 @@
   "extensionPack": [
     // Visual improvements
     "PKief.material-icon-theme",
-    "CoenraadS.bracket-pair-colorizer-2",
     // Markdown helpers
     "yzhang.markdown-all-in-one",
     "bierner.emojisense",
     // Html helpers
-    "bradgashler.htmltagwrap",
     "kisstkondoros.vscode-gutter-preview",
     // Javascript helpers
     "vit-m.template-strings",
@@ -20,7 +18,7 @@
     // Autocompletion
     "ionutvmi.path-autocomplete",
     "pranaygp.vscode-css-peek",
-    "gencer.html-slim-scss-css-class-completion",
+    "p-de-jong.vscode-html-scss",
     // IDE Tools
     "mhutchie.git-graph",
     "adamhartford.vscode-base64",

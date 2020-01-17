@@ -20,30 +20,28 @@
   "explorer.sortOrder": "type",
   "explorer.openEditors.visible": 0,
   "explorer.compactFolders": false,
+  "workbench.panel.defaultLocation": "right",
   // Editor
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.rulers": [
-    80 /* default Prettier maxWidth */
-  ],
+  "editor.rulers": [80 /* default Prettier maxWidth */],
   // Custom fonts
-  "editor.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji",
+  "editor.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji, OperatorMonoSSmLig Nerd Font, FiraCode Nerd Font",
   "terminal.integrated.fontFamily": "OperatorMonoSSmLig Nerd Font, FiraCode Nerd Font, Noto Color Emoji",
-  "debug.console.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji",
+  "debug.console.fontFamily": "Operator Mono SSm Lig, Fira Code, Noto Color Emoji, OperatorMonoSSmLig Nerd Font, FiraCode Nerd Font",
   "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif, Noto Color Emoji",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 15,
   "editor.fontWeight": "500",
   "terminal.integrated.fontWeight": "500",
   // Code format
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
-  "editor.autoIndent": "full",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
@@ -98,29 +96,13 @@
   // Code Spell Checker
   "cSpell.language": "en,fr",
   "cSpell.diagnosticLevel": "Hint",
-  "cSpell.userWords": [
-    "signin",
-    "signup",
-    "aujourd'hui",
-    "sidenav",
-    "navbar"
-  ],
+  "cSpell.userWords": ["signin", "signup", "aujourd'hui", "sidenav", "navbar"],
   // Material icon theme
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.showWelcomeMessage": false,
   "material-icon-theme.showReloadMessage": false,
   "material-icon-theme.folders.color": "#608eb9",
   "material-icon-theme.folders.associations": {
-    "_services": "controller",
-    "_controllers": "controller",
-    "_helpers": "helper",
-    "_shared": "shared",
-    "_components": "components",
-    "_models": "class",
-    "_core": "core",
-    "_guards": "guard",
-    "_utils": "utils",
-    "_pipes": "pipe",
     "App_Resources": "resource",
     "platforms": "other",
     "features": "content",
@@ -133,42 +115,8 @@
     "*.gateway.ts": "nest-gateway",
     "*.decorator.ts": "nest-decorator"
   },
-  // Bracket Pair Colorizer 2
-  "bracket-pair-colorizer-2.colors": ["#dfeeff000"],
-  "bracket-pair-colorizer-2.excludedLanguages": ["html"],
-  "bracket-pair-colorizer-2.highlightActiveScope": true,
-  "editor.matchBrackets": "never",
   // Comment Divider
   "comment-divider.subheaderAlign": "left",
-  // EmojiSense
-  "emojisense.languages": {
-    "markdown": true,
-    "plaintext": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "git-commit": true,
-    "javascript": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "typescript": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "php": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "html": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "json": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    }
-  },
   // Prettier
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
@@ -202,8 +150,8 @@
   // Wrap the current selected elements with html tags
   {
     "key": "alt+w",
-    "command": "extension.htmlTagWrap",
-    "when": "editorTextFocus"
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "editorHasSelection"
   },
   // Insert console.log('selectedElement: ' + selectedElement)
   {
