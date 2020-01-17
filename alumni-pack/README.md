@@ -44,7 +44,7 @@
   "files.insertFinalNewline": true,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.formatOnPaste": true,
+  "editor.autoIndent": true,
   "editor.formatOnSave": true,
   /* TELEMETRY & UPDATES settings --------------------------------------------- */
   "telemetry.enableCrashReporter": false,
